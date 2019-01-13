@@ -24,7 +24,7 @@ public class ItemJPA {
     }
 
     @Test
-    public void ItemJPAV1(){
+    public void ItemJPAV4_1(){
         try {
             EntityTransaction tx = em.getTransaction();
 
