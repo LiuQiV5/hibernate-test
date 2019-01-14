@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22894cd4-8627-4dd3-a473-51c63f96b339" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/liuqi/test/v4/ItemJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/liuqi/test/v4/ItemJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/liuqi/entity/v5/ItemV5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/liuqi/entity/v5/ItemV5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,33 +47,34 @@
     <session id="-679720083">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1143" />
+          <entry key="java" value="1224" />
           <entry key="txt" value="31" />
-          <entry key="xml" value="251" />
+          <entry key="xml" value="252" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1143" />
+          <entry key="JAVA" value="1224" />
           <entry key="PLAIN_TEXT" value="31" />
-          <entry key="XML" value="251" />
+          <entry key="XML" value="252" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="16" />
           <entry key="iml" value="3" />
-          <entry key="java" value="11" />
+          <entry key="java" value="13" />
           <entry key="sql" value="1" />
           <entry key="xml" value="10" />
         </counts>
@@ -81,7 +83,7 @@
         <counts>
           <entry key="CLASS" value="16" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="13" />
           <entry key="Scratch" value="3" />
           <entry key="XML" value="8" />
         </counts>
@@ -90,11 +92,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="16" column="94" lean-forward="true" selection-start-line="16" selection-start-column="94" selection-end-line="16" selection-end-column="94" />
+            <state relative-caret-position="375">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -102,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/liuqi/entity/v5/ItemV5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="275">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#476#477#0" expanded="true" />
@@ -115,10 +117,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/liuqi/test/v2/HelloWorldJPA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/liuqi/entity/v5/AuctionType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/liuqi/test/v5/ItemJPAV5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="1150">
               <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,6 +157,7 @@
       <list>
         <option value="persistence" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -154,12 +178,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/liuqi/test/v1/HelloWorldJPA.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/liuqi/test/v2/HelloWorldJPA.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/liuqi/entity/v4/Item.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/liuqi/test/v5.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/liuqi/test/v4/ItemJPA.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/liuqi/entity/v4/Item.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/liuqi/entity/v5/AuctionType.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/liuqi/entity/v5/ItemV5.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/liuqi/test/v5/ItemJPAV5.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" />
       </list>
     </option>
   </component>
@@ -295,16 +318,6 @@
               <item name="hibernate-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="liuqi" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="v4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hibernate-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hibernate-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -367,7 +380,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ItemJPAV5.queryItem">
+  <component name="RunManager" selected="JUnit.ItemJPAV5.ItemJPAV5_1">
+    <configuration name="HelloWorldJPA.HelloWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuqi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.liuqi.test" />
+      <option name="MAIN_CLASS_NAME" value="com.liuqi.test.HelloWorldJPA" />
+      <option name="METHOD_NAME" value="HelloWorldTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorldJPA.HelloWorldTestV1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hibernate-test" />
       <extension name="coverage">
@@ -416,22 +445,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemJPAV5.queryItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hibernate-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuqi.test.v5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.liuqi.test.v5" />
-      <option name="MAIN_CLASS_NAME" value="com.liuqi.test.v5.ItemJPAV5" />
-      <option name="METHOD_NAME" value="queryItem" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ItemJPA.ItemJPAV1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hibernate-test" />
       <extension name="coverage">
@@ -449,19 +462,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.HelloWorldJPA.HelloWorldTest" />
       <item itemvalue="JUnit.HelloWorldJPA.HelloWorldTestV2" />
       <item itemvalue="JUnit.HelloWorldJPA.HelloWorldTestV1" />
       <item itemvalue="JUnit.ItemJPA.ItemJPAV1" />
       <item itemvalue="JUnit.ItemJPAV5.ItemJPAV5_1" />
-      <item itemvalue="JUnit.ItemJPAV5.queryItem" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ItemJPAV5.queryItem" />
         <item itemvalue="JUnit.ItemJPAV5.ItemJPAV5_1" />
         <item itemvalue="JUnit.ItemJPA.ItemJPAV1" />
         <item itemvalue="JUnit.HelloWorldJPA.HelloWorldTestV2" />
         <item itemvalue="JUnit.HelloWorldJPA.HelloWorldTestV1" />
+        <item itemvalue="JUnit.HelloWorldJPA.HelloWorldTest" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +491,8 @@
       <workItem from="1546952937619" duration="4279000" />
       <workItem from="1547037584983" duration="4819000" />
       <workItem from="1547124951103" duration="2291000" />
-      <workItem from="1547342852063" duration="6167000" />
+      <workItem from="1547342852063" duration="6784000" />
+      <workItem from="1547469996128" duration="478000" />
     </task>
     <servers />
   </component>
@@ -515,12 +529,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17556000" />
+    <option name="totallyTimeSpent" value="18651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -530,7 +545,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.79211086" visible="true" weight="0.29175705" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.79211086" weight="0.29175705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -674,17 +689,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/liuqi/test/v5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/liuqi/test/v5.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/liuqi/test/v4/ItemJPA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/liuqi/test/v5/ItemJPAV5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -694,14 +710,24 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/liuqi/test/v2/HelloWorldJPA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="33" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/liuqi/entity/v5/AuctionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/liuqi/entity/v5/ItemV5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="275">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#476#477#0" expanded="true" />
@@ -714,18 +740,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" column="94" lean-forward="true" selection-start-line="16" selection-start-column="94" selection-end-line="16" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/liuqi/test/v5/ItemJPAV5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
