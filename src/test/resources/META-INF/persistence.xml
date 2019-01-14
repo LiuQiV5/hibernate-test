@@ -6,7 +6,8 @@
     <persistence-unit name="HelloWorldPU">
        <!-- <class>com.liuqi.entity.v2.Message</class>-->
        <!-- <class>com.liuqi.entity.v4.Item</class>-->
-        <class>com.liuqi.entity.v5.ItemV5</class>
+        <!--<class>com.liuqi.entity.v5.ItemV5</class>-->
+        <class>com.liuqi.entity.v5.UserV2</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
 
