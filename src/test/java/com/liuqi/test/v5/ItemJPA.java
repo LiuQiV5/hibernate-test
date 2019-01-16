@@ -11,7 +11,7 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 import java.util.List;
 
-public class ItemJPAV5 {
+public class ItemJPA {
 
     private EntityManagerFactory emf;
 
