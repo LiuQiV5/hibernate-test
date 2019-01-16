@@ -4,10 +4,12 @@
              xsi:schemaLocation="http://xmlns.jsp.org/xml/ns/persistence">
 
     <persistence-unit name="HelloWorldPU">
-       <!-- <class>com.liuqi.entity.v2.Message</class>-->
-       <!-- <class>com.liuqi.entity.v4.Item</class>-->
+       <!--<class>com.liuqi.entity.v2.Message</class>-->
+       <!--<class>com.liuqi.entity.v4.Item</class>-->
         <!--<class>com.liuqi.entity.v5.ItemV5</class>-->
-        <class>com.liuqi.entity.v5.UserV2</class>
+      <!--<class>com.liuqi.entity.v5.UserV2</class>-->
+        <class>com.liuqi.entity.v5.BankAccountV1</class>
+        <class>com.liuqi.entity.v5.CreditCardV1</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
 
@@ -19,6 +21,7 @@
 
             <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
             <property name="hibernate.format_sql" value="true" />
+            <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.use_sql_comments" value="true"/>
         </properties>
 
