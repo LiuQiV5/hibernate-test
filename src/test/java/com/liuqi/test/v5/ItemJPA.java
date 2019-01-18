@@ -58,4 +58,19 @@ public class ItemJPA {
 
         System.out.println(resultList.get(0).getWeight_kg());
     }
+
+    @Test
+    public void ItemJPAV5_6(){
+        try {
+            EntityTransaction tx = em.getTransaction();
+
+            tx.begin();
+            
+            tx.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            em.close();
+        }
+    }
 }

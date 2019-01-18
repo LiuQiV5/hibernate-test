@@ -7,9 +7,10 @@
        <!--<class>com.liuqi.entity.v2.Message</class>-->
        <!--<class>com.liuqi.entity.v4.Item</class>-->
         <!--<class>com.liuqi.entity.v5.ItemV5</class>-->
-      <!--<class>com.liuqi.entity.v5.UserV2</class>-->
+      <!--<class>com.liuqi.entity.v5.UserV2</class>
         <class>com.liuqi.entity.v5.BankAccountV1</class>
-        <class>com.liuqi.entity.v5.CreditCardV1</class>
+        <class>com.liuqi.entity.v5.CreditCardV1</class>-->
+        <class>com.liuqi.entity.v5.ItemV1</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
 
