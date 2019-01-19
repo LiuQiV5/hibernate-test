@@ -1,17 +1,15 @@
 package com.liuqi.test.v7;
 
-import com.liuqi.entity.v7.ItemV2;
-import com.liuqi.entity.v7.ItemV3;
-import com.liuqi.entity.v7.ItemV4;
+import com.liuqi.entity.v7.*;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import static org.junit.Assert.assertEquals;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import java.math.BigDecimal;
 import java.util.*;
 
 public class ItemJPA {
@@ -230,6 +228,152 @@ public class ItemJPA {
                 System.out.println(entry.getKey()+"====="+entry.getValue());
             }
 
+            tx.commit();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            em.close();
+        }
+    }
+
+    /**
+     * 多对一
+     */
+    @Test
+    public void ItemJPAV7_8(){
+        try {
+            EntityTransaction tx = em.getTransaction();
+
+            tx.begin();
+
+            tx.commit();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            em.close();
+        }
+    }
+
+
+    /**
+     * 一对多
+     */
+    @Test
+    public void ItemJPAV7_9(){
+        try {
+            EntityTransaction tx = em.getTransaction();
+
+            tx.begin();
+
+            tx.commit();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            em.close();
+        }
+    }
+
+    /**
+     * 持久化
+     */
+    @Test
+    public void ItemJPAV7_10(){
+        try {
+            EntityTransaction tx = em.getTransaction();
+
+            tx.begin();
+
+            ItemV5 v5 = new ItemV5();
+
+            v5.setName("Foo");
+
+            Map<String,String> map = new HashMap<>(6);
+
+            map.put("foo.jpg","foo");
+
+            map.put("bar.jpg","bar");
+
+            v5.setMap(map);
+
+            em.persist(v5);
+
+            BidV1 bidV1 =  new BidV1();
+
+            bidV1.setPrice(new BigDecimal("105.50"));
+
+            v5.getBidV1s().add(bidV1);
+
+            em.persist(bidV1);
+
+            tx.commit();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            em.close();
+        }
+    }
+
+    /**
+     * 持久化,级联保存
+     */
+    @Test
+    public void ItemJPAV7_11(){
+        try {
+            EntityTransaction tx = em.getTransaction();
+
+            tx.begin();
+
+            ItemV5 v5 = new ItemV5();
+
+            v5.setName("Foo");
+
+            Map<String,String> map = new HashMap<>(6);
+
+            map.put("foo.jpg","foo");
+
+            map.put("bar.jpg","bar");
+
+            v5.setMap(map);
+
+            em.persist(v5);
+
+            BidV1 bidV1 =  new BidV1();
+
+            bidV1.setPrice(new BigDecimal("105.50"));
+
+            bidV1.setV5(v5);
+
+            v5.getBidV1s().add(bidV1);
+
+            //脏检查，SQL执行
+            tx.commit();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            em.close();
+        }
+    }
+
+    /**
+     * 级联删除
+     */
+    @Test
+    public void ItemJPAV7_12(){
+        try {
+            EntityTransaction tx = em.getTransaction();
+
+            tx.begin();
+
+            ItemV5 item = em.find(ItemV5.class, 3l);
+
+            em.remove(item);
+
+            //脏检查，SQL执行
             tx.commit();
 
         } catch (Exception e) {
