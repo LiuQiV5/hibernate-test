@@ -1,6 +1,5 @@
 package com.liuqi.test.v4;
 
-import com.liuqi.entity.v2.Message;
 import com.liuqi.entity.v4.Item;
 import org.junit.Before;
 import org.junit.Test;

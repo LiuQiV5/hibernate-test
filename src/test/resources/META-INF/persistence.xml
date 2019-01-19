@@ -10,7 +10,11 @@
       <!--<class>com.liuqi.entity.v5.UserV2</class>
         <class>com.liuqi.entity.v5.BankAccountV1</class>
         <class>com.liuqi.entity.v5.CreditCardV1</class>-->
-        <class>com.liuqi.entity.v5.ItemV1</class>
+        <!--<class>com.liuqi.entity.v5.ItemV1</class>-->
+        <!--<class>com.liuqi.entity.v7.ItemV1</class>-->
+        <!--<class>com.liuqi.entity.v7.ItemV2</class>-->
+       <!-- <class>com.liuqi.entity.v7.ItemV3</class>-->
+        <class>com.liuqi.entity.v7.ItemV4</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
 
@@ -20,7 +24,7 @@
             <property name="hibernate.connection.password" value="123456" />
             <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/test" />
 
-            <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+           <!--<property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>-->
             <property name="hibernate.format_sql" value="true" />
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.use_sql_comments" value="true"/>
