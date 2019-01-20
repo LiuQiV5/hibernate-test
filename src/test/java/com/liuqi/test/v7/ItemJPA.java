@@ -205,7 +205,7 @@ public class ItemJPA {
     }
 
     /**
-     * map排序
+     * map排序、删除
      */
     @Test
     public void ItemJPAV7_7(){
@@ -229,7 +229,6 @@ public class ItemJPA {
             }
 
             tx.commit();
-
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
