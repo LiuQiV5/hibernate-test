@@ -21,8 +21,13 @@
         <!--<class>com.liuqi.entity.v8.UserV1</class> -->
         <!--<class>com.liuqi.entity.v8.AddressV2</class>
         <class>com.liuqi.entity.v8.UserV2</class>-->
-        <class>com.liuqi.entity.v8.ItemV1</class>
-        <class>com.liuqi.entity.v8.UserV3</class>
+        <!--<class>com.liuqi.entity.v8.ItemV1</class>
+        <class>com.liuqi.entity.v8.UserV3</class>-->
+        <!--<class>com.liuqi.entity.v8.CategoryV1</class>
+        <class>com.liuqi.entity.v8.ItemV2</class>-->
+        <class>com.liuqi.entity.v8.ItemV3</class>
+        <class>com.liuqi.entity.v8.CategoryV2</class>
+        <class>com.liuqi.entity.v8.CategorizedItem</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
 
@@ -31,8 +36,8 @@
             <property name="hibernate.connection.username" value="root" />
             <property name="hibernate.connection.password" value="123456" />
             <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/test" />
+            <!--<property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>-->
 
-            <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
             <property name="hibernate.format_sql" value="true" />
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.use_sql_comments" value="true"/>
