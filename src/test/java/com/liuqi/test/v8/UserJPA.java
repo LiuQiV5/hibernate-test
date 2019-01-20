@@ -25,6 +25,25 @@ public class UserJPA {
         em = emf.createEntityManager();
     }
 
+
+    /**
+     * 建表
+     */
+    @Test
+    public void UserJPAV8_0(){
+        try {
+            EntityTransaction tx = em.getTransaction();
+
+            tx.begin();
+
+            tx.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            em.close();
+        }
+    }
+
     /**
      * 持久化user,address
      */
